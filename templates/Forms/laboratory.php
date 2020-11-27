@@ -10,7 +10,7 @@
     <div class="row">
         <div class="col-md-4">
             <div class="form-group">
-                <?= $this->Form->control('nameOfFaculty', ['type' => 'text', 'class' => 'form-control', 'id' => 'nameOfFaculty', 'placeholder' => 'Name of Faculty', 'label' => false]); ?>
+            <input type="text" value="<?php echo isset($formValues['nameOfFaculty']) ? $formValues['nameOfFaculty'] : ''; ?>" name="nameOfFaculty" class="form-control" id="nameOfFaculty" placeholder="Name of Faculty">
             </div>
         </div>
 
