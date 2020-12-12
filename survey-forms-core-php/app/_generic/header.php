@@ -20,6 +20,9 @@
                 <li class="nav-item ">
                     <a href="<?php echo 'laboratory.php';?>" class="nav-link">Laboratory</a>
                 </li>
+                <li class="nav-item ">
+                    <a href="<?php echo 'institute-facility.php';?>" class="nav-link">Institute Facility</a>
+                </li>
             </ul>
         </div>
     </div>
